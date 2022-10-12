@@ -1,0 +1,40 @@
+From: Rico Tzschichholz <ricotz@ubuntu.com>
+Date: Sun, 4 Apr 2021 15:34:49 +0200
+Subject: Use ~ for prereleases in appdata
+
+(cherry picked from commit 1de280ec26d969f21e683af2e222feb518fed6cc)
+---
+ data/org.gnome.LightsOff.appdata.xml.in | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/data/org.gnome.LightsOff.appdata.xml.in b/data/org.gnome.LightsOff.appdata.xml.in
+index 564bf97..6d92b3d 100644
+--- a/data/org.gnome.LightsOff.appdata.xml.in
++++ b/data/org.gnome.LightsOff.appdata.xml.in
+@@ -81,7 +81,7 @@
+         </ul>
+       </description>
+     </release>
+-    <release version="40.rc" date="2021-03-12" type="development">
++    <release version="40~rc" date="2021-03-12" type="development">
+       <description>
+         <p>Overview of changes in lightsoff 40.rc</p>
+         <ul>
+@@ -89,7 +89,7 @@
+         </ul>
+       </description>
+     </release>
+-    <release version="40.beta" date="2021-02-05" type="development">
++    <release version="40~beta" date="2021-02-05" type="development">
+       <description>
+         <p>Overview of changes in lightsoff 40.beta</p>
+         <ul>
+@@ -98,7 +98,7 @@
+         </ul>
+       </description>
+     </release>
+-    <release version="40.alpha" date="2021-01-10" type="development">
++    <release version="40~alpha" date="2021-01-10" type="development">
+       <description>
+         <p>Overview of changes in lightsoff 40.alpha</p>
+         <ul>

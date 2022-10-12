@@ -1,0 +1,132 @@
+# Translation of gnome-games to Russian
+# Copyright (C) 1999-2002,2003, 2004, 2005, 2010 Free Software Foundation, Inc.
+#
+# Sergey Panov <sipan@mit.edu>, 1999.
+# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2003.
+# Vyacheslav Dikonov <linuxbox@degunino.net>, 2002.
+# Michael Yakhontov <mvy@asplinux.ru>, 2003.
+# Leonid Kanter <leon@asplinux.ru>, 2004, 2005.
+# Dmitry Dzhus <dima@sphinx.net.ru>, 2008.
+# Andrew Grigorev <andrew@ei-grad.ru>, 2009.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010.
+# Valek Filippov <frob@df.ru> 2000-2002
+# Nickolay V. Shmyrev <nshmyrev@yandex.ru>
+# Ivan Komaritsyn <vantu5z@mail.ru>, 2015.
+# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012-2014, 2015.
+# Stas Solovey <whats_up@tut.by>, 2016.
+# Anton Leontiev <scileont@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games trunk\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/lightsoff/issues\n"
+"POT-Creation-Date: 2019-03-26 18:31+0000\n"
+"PO-Revision-Date: 2019-07-14 13:01+0300\n"
+"Last-Translator: Anton Leontiev <scileont@gmail.com>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 3.32.1\n"
+
+#: data/lightsoff-menus.ui:7
+msgid "_Start Over"
+msgstr "_Начать сначала"
+
+#: data/lightsoff-menus.ui:12
+msgid "_Previous puzzle"
+msgstr "_Предыдущая головоломка"
+
+#: data/lightsoff-menus.ui:17
+msgid "Ne_xt puzzle"
+msgstr "С_ледующая головоломка"
+
+#: data/lightsoff-menus.ui:24
+msgid "_Help"
+msgstr "_Справка"
+
+#: data/lightsoff-menus.ui:29
+msgid "_About Lights Off"
+msgstr "_О приложении"
+
+#: data/org.gnome.LightsOff.appdata.xml.in:7
+#: data/org.gnome.LightsOff.desktop.in:3 src/lightsoff.vala:112
+#: src/lightsoff.vala:134 src/lightsoff.vala:147
+msgid "Lights Off"
+msgstr "Туши свет"
+
+#: data/org.gnome.LightsOff.appdata.xml.in:8
+#: data/org.gnome.LightsOff.desktop.in:4 src/lightsoff.vala:115
+msgid "Turn off all the lights"
+msgstr "Погасить все огоньки"
+
+#: data/org.gnome.LightsOff.appdata.xml.in:10
+msgid ""
+"Lights Off is a collection of light switch puzzles. Clicking on a light "
+"toggles it either on or off, but also toggles all the surrounding lights, "
+"too. Your objective is simple: turn off all the lights!"
+msgstr ""
+"Туши свет — это коллекция головоломок, в которых необходимо погасить все "
+"огоньки. Нажатие на огонёк либо включает, либо выключает его, но включение и "
+"выключение также включает и выключает близлежащие огоньки. Цель игра проста "
+"— гасите все огни!"
+
+#: data/org.gnome.LightsOff.appdata.xml.in:15
+msgid ""
+"Players who delight in turning off lights will enjoy the huge number of "
+"levels."
+msgstr "Игрокам доставит удовольствие большое количество уровней."
+
+#: data/org.gnome.LightsOff.appdata.xml.in:42
+msgid "The GNOME Project"
+msgstr "Проект GNOME"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.LightsOff.desktop.in:6
+msgid "game;logic;board;tiles;adjacent;puzzle;"
+msgstr ""
+"игра;логическая;настольная;головоломка;game;logic;board;tiles;adjacent;"
+"puzzle;"
+
+#: data/org.gnome.LightsOff.gschema.xml:6
+msgid "The current level"
+msgstr "Текущий уровень"
+
+#: data/org.gnome.LightsOff.gschema.xml:7
+msgid "The users’s most recent level."
+msgstr "Последний уровень пользователя."
+
+#: src/lightsoff.vala:121
+msgid "translator-credits"
+msgstr ""
+"Ivan Komaritsyn <vantu5z@mail.ru>, 2015.\n"
+"Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012-2015.\n"
+"Stas Solovey <whats_up@tut.by>, 2016-2018."
+
+#: src/lightsoff.vala:142
+#, c-format
+msgid "Run `%s --help` to see a full list of available command line options.\n"
+msgstr ""
+"Выполните «%s --help», чтобы вывести полный список доступных опций командной "
+"строки.\n"
+
+#: src/lightsoff-window.vala:96
+#, c-format
+msgid "%d move"
+msgid_plural "%d moves"
+msgstr[0] "%d ход"
+msgstr[1] "%d хода"
+msgstr[2] "%d ходов"
+
+#. The title of the window, %d is the level number
+#: src/lightsoff-window.vala:102
+#, c-format
+msgid "Puzzle %d"
+msgstr "Головоломка %d"
+
+#: src/lightsoff-window.vala:106
+msgid "Turn off all the lights!"
+msgstr "Погасите все огоньки!"

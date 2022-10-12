@@ -1,0 +1,126 @@
+# Icelandic translation of gnome-games.
+# Copyright (C) 2004 THE gnome-games'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-games package.
+# , fuzzy
+#
+#
+# aki <aki@akademia.is>, 2004.
+# Sveinn í Felli <sv1@fellsnet.is>, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games 2.6\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/lightsoff/issues\n"
+"POT-Creation-Date: 2018-10-05 20:00+0000\n"
+"PO-Revision-Date: 2019-02-21 08:52+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: data/lightsoff.appdata.xml.in:7 data/lightsoff.desktop.in:3
+#: src/lightsoff.vala:103 src/lightsoff.vala:125 src/lightsoff.vala:138
+msgid "Lights Off"
+msgstr "Slökkva ljósin"
+
+#: data/lightsoff.appdata.xml.in:8 data/lightsoff.desktop.in:4
+#: src/lightsoff.vala:106
+msgid "Turn off all the lights"
+msgstr "Slökktu á öllum ljósunum"
+
+#: data/lightsoff.appdata.xml.in:10
+msgid ""
+"Lights Off is a collection of light switch puzzles. Clicking on a light "
+"toggles it either on or off, but also toggles all the surrounding lights, "
+"too. Your objective is simple: turn off all the lights!"
+msgstr ""
+"'Slökkva ljósin' er safn af þrautum þar sem unnið er með ljósarofa. Ef "
+"smellt er á ljós er kveikt eða slökkt á viðkomandi ljósi - en einnig skipt "
+"um stöðu á öllum ljósum í kring. Markmiðið er einfalt: slökkva á öllum "
+"ljósunum!"
+
+#: data/lightsoff.appdata.xml.in:15
+msgid ""
+"Players who delight in turning off lights will enjoy the huge number of "
+"levels."
+msgstr ""
+"Leikmönnum sem gengur vel að slökkva á ljósum, er úthlutað fjöldanum öllum "
+"af leikþrepum."
+
+#: data/lightsoff.appdata.xml.in:39
+msgid "The GNOME Project"
+msgstr "GNOME verkefnið"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/lightsoff.desktop.in:6
+msgid "game;logic;board;tiles;adjacent;puzzle;"
+msgstr "leikur;rökhugsun;borð;spjöld;aðliggjandi;gestaþraut;ráðgáta;"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: data/lightsoff.desktop.in:8
+msgid "lightsoff"
+msgstr "lightsoff"
+
+#: data/lightsoff-menus.ui:7
+msgid "_Start Over"
+msgstr "_Byrja aftur"
+
+#: data/lightsoff-menus.ui:14
+msgid "_Help"
+msgstr "_Hjálp"
+
+#: data/lightsoff-menus.ui:19
+msgid "_About"
+msgstr "_Um hugbúnaðinn"
+
+#: data/lightsoff-menus.ui:23
+msgid "_Quit"
+msgstr "Hæ_tta"
+
+#: data/lightsoff.ui:14
+msgid "Return to the previous level"
+msgstr "Fara aftur á fyrra þrep"
+
+#: data/lightsoff.ui:34
+msgid "Proceed to the next level"
+msgstr "Halda áfram á næsta þrep"
+
+#: data/org.gnome.lightsoff.gschema.xml:6
+msgid "The current level"
+msgstr "Núverandi þrep"
+
+#: data/org.gnome.lightsoff.gschema.xml:7
+msgid "The users’s most recent level."
+msgstr "Nýjasta þrep þessa notanda."
+
+#: src/lightsoff.vala:112
+msgid "translator-credits"
+msgstr "Sveinn í Felli, sv1@fellsnet.is"
+
+#: src/lightsoff.vala:133
+#, c-format
+msgid "Run `%s --help` to see a full list of available command line options.\n"
+msgstr ""
+"Keyrðu '%s --help' til að sjá lista með öllum mögulegum valkostum"
+" skipanalínunnar.\n"
+
+#: src/lightsoff-window.vala:92
+#, c-format
+msgid "%d move"
+msgid_plural "%d moves"
+msgstr[0] "%d leikur"
+msgstr[1] "%d leikir"
+
+#. The title of the window, %d is the level number
+#: src/lightsoff-window.vala:98
+#, c-format
+msgid "Level %d"
+msgstr "Þrep %d"
+
+#: src/lightsoff-window.vala:102
+msgid "Turn off all the lights!"
+msgstr "Slökktu á öllum ljósunum!"
+
